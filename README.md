@@ -29,9 +29,9 @@ Then, scroll down until you see a list of fonts.
 Choose one.
 
 > I prefer [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack).
-
+<br>
 Click on it, go inside the folder titled "Regular", and download one of the .ttf files.
-
+<br>
 > [!TIP]
 > Depending on your font, it may be in another folder, not Regular. These should be self-explanatory.
 
@@ -50,22 +50,27 @@ Go to the Defaults Profile on the Left hand side, go to Appearance, and then cha
 > Now your nerd font should render cool icons!
 
 <br><br><br>
-## Opening NVIM!!!
+## Finally Opening NVIM!
 
 Finally, install nvim and open it!
 
-### `bash`
+### In _bash_:
 
 `sudo apt install neovim` should install neovim. 
-<br><br>
+<br><br><br>
+### Download My Config!!!
 Copy the code in this repo, the _nvim_ folder, into ~/.config on your system.
 Replace any files that match.
+<br><br>
+You should now have a `~/.config/nvim` folder, containing `init.lua` and a `lua` folder
+<br>
+If so, great! You can now run Neovim!
 <br><br>
 Finally, to run NEOVIM, type `nvim` in your terminal.
 
 You will see the packages install, then once done, type `:q` to exit Lazy.
 
-
+<br><br>
 Done!
 
 <br><br><br>
