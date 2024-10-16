@@ -1,7 +1,7 @@
 # INSTRUCTIONS FOR USE 
 
 How to install and use my awesome Neovim Configuration!!
-
+<br><br>
 
 ## REQUIREMENTS:
 
@@ -10,7 +10,7 @@ How to install and use my awesome Neovim Configuration!!
 First, install these packages. I will demonstrate with Ubuntu.
 
 
-
+<br><br>
 
 ### In _bash_:
 
@@ -19,7 +19,7 @@ First, install these packages. I will demonstrate with Ubuntu.
 `sudo apt install nodejs npm`
 
 
-
+<br><br>
 ### Finding A Nerd Font
 
 First, go to [github.com/ryanoasis/nerd-fonts/](https://github.com/ryanoasis/nerd-fonts)
@@ -35,7 +35,7 @@ Click on it, go inside the folder titled "Regular", and download one of the .ttf
 > [!TIP]
 > Depending on your font, it may be in another folder, not Regular. These should be self-explanatory.
 
-
+<br><br>
 ### Installing the Nerd Font
 
 Now, in File Explorer, right click on it, and select Install for All Users. If you are not on Windows, install it some other way idk.
@@ -49,7 +49,7 @@ Go to the Defaults Profile on the Left hand side, go to Appearance, and then cha
 
 > Now your nerd font should render cool icons!
 
-
+<br><br><br>
 ## Opening NVIM!!!
 
 Finally, install nvim and open it!
@@ -57,7 +57,10 @@ Finally, install nvim and open it!
 ### `bash`
 
 `sudo apt install neovim` should install neovim. 
-
+<br><br>
+Copy the code in this repo, the _nvim_ folder, into ~/.config on your system.
+Replace any files that match.
+<br><br>
 Finally, to run NEOVIM, type `nvim` in your terminal.
 
 You will see the packages install, then once done, type `:q` to exit Lazy.
@@ -65,7 +68,7 @@ You will see the packages install, then once done, type `:q` to exit Lazy.
 
 Done!
 
-
+<br><br><br>
 Keymaps created (default still exist): 
 
 
