@@ -73,6 +73,9 @@ You will see the packages install, then once done, type `:q` to exit Lazy.
 <br><br>
 Done!
 
+![image](https://github.com/user-attachments/assets/d0fccb16-73f9-4f49-bb7f-f95c24041f1f)
+
+
 <br><br><br>
 Keymaps created (default still exist): 
 
