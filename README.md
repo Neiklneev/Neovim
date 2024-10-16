@@ -12,9 +12,9 @@ First, install these packages. I will demonstrate with Ubuntu.
 
 IN BASH:
 
-sudo apt install ripgrep
+`sudo apt install ripgrep`
 
-sudo apt install nodejs npm
+`sudo apt install nodejs npm`
 
 
 
@@ -70,21 +70,22 @@ YOU ARE READY!!!!
 Keymaps created (default still exist): 
 
 
-- <C-n> to open Neotree
+- `<C-n>` to open Neotree
 - `-` to open oil in parent directory
-- <leader>m to collapse or expand a bracket onto multiple lines. Only works for less than 120 chars.
-- <leader>h to open harpoon window
-- <leader>x to add current buffer to harpoon
-- <leader>th to open Themery for color schemes
-- <C-p> for telescope find files.
-- <leader>fb for telescope find buffers
-- <leader>fg for telescope live grep
-- s to use Leap forward
-- t to use Leap backward
-- <leader>ca to open code actions. Will show if lightbulb is there.
-- ys/cs/ds to surround/change surrounding/delete surrounding tag or parenthesis or special char 
-- <leader>tt to open a terminal in a split view
-- <C-hjkl> to switch to a different split view
-- <C-UpDownLeftRight> to resize a split view
-- gcc to comment current line (can be prefixed with number) (use gcO to open a new line with comment above the current line)
-- gbc to use block comments (can be prefixed with number)
+- `<leader>m` to collapse or expand a bracket onto multiple lines. Only works for less than 120 chars.
+- `<leader>h` to open harpoon window
+- `<leader>x` to add current buffer to harpoon
+- `<leader>th` to open Themery for color schemes
+- `<C-p>` for telescope find files.
+- `<leader>fb` for telescope find buffers
+- `<leader>fg` for telescope live grep
+- `s` to use Leap forward
+- `t` to use Leap backward
+- `<leader>ca` to open code actions. Will show if lightbulb is there.
+- `ys/cs/ds` to surround/change surrounding/delete surrounding tag or parenthesis or special char 
+- `<leader>tt` to open a terminal in a split view
+- `<C-hjkl>` to switch to a different split view
+- `<C-UpDownLeftRight>` to resize a split view
+- `gcc` to comment current line (can be prefixed with number) (use gcO to open a new line with comment above the current line)
+- `gbc` to use block comments (can be prefixed with number)
+`
