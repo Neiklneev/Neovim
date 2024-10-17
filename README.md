@@ -32,8 +32,7 @@ Choose one.
 <br>
 Click on it, go inside the folder titled "Regular", and download one of the .ttf files.
 <br>
-> [!TIP]
-> Depending on your font, it may be in another folder, not Regular. These should be self-explanatory.
+[!TIP] Depending on your font, it may be in another folder, not Regular. These should be self-explanatory.
 
 <br><br>
 ### Installing the Nerd Font
