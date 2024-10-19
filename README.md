@@ -89,7 +89,7 @@ Keymaps created (default still exist):
 - `<leader>fb` for telescope find buffers
 - `<leader>fg` for telescope live grep
 - `s` to use Leap forward
-- `t` to use Leap backward
+- `S` to use Leap backward
 - `<leader>ca` to open code actions. Will show if lightbulb is there.
 - `ys/cs/ds` to surround/change surrounding/delete surrounding tag or parenthesis or special char[^2].
 - `<leader>tt` to open a terminal in a split view
