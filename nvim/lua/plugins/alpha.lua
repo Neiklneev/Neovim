@@ -22,7 +22,8 @@ return   {
       dashboard.button( "e", "  > New file" , ":ene <BAR> startinsert <CR>"),
       dashboard.button( "f", "󰍉  > Marked Files", ':lua require("harpoon.ui").toggle_quick_menu()<CR>'),
       dashboard.button( "r", "  > Recent"   , ":Telescope oldfiles<CR>"),
-      dashboard.button( "s", "  > Settings" , ":e $MYVIMRC | :cd %:p:h | split . | wincmd k | pwd<CR>"),
+      dashboard.button( ".", "  > Open File"   , ":Oil<CR>"),
+      dashboard.button( "s", "  > Settings" , ":e ~/.config/nvim/lua/settings.lua | :cd %:p:h | vs . | wincmd k | pwd<CR>"),
       dashboard.button( "q", "  > Quit NVIM", ":qa<CR>"),
     }
 
