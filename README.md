@@ -32,9 +32,9 @@ Go to the Defaults Profile on the Left hand side, go to Appearance, and then cha
 <br><br><br>
 ### TO SETUP YOUR CONFIG YAYY:
 
-`sudo apt install ripgrep nodejs npm neovim` // Installing packages
-`cd ~/.config && rm -rf nvim/` // Removing any Previous files
-`git clone https://github.com/Neiklneev/Neovim.git ~/.config/nvim` // Cloning this repo
+`sudo apt install ripgrep nodejs npm neovim` // Installing packages <br>
+`cd ~/.config && rm -rf nvim/` // Removing any Previous files <br>
+`git clone https://github.com/Neiklneev/Neovim.git ~/.config/nvim` // Cloning this repo <br>
 
 #### Now you have Neovim installed!
 
