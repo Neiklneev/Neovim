@@ -30,11 +30,11 @@ Go to the Defaults Profile on the Left hand side, go to Appearance, and then cha
 > Now your nerd font should render cool icons!
 
 <br><br><br>
-### TO SETUP YOUR CONFIG YAYY:
+## TO SETUP YOUR CONFIG YAYY:
 
-`sudo apt install ripgrep nodejs npm neovim` // Installing packages <br>
-`cd ~/.config && rm -rf nvim/` // Removing any Previous files <br>
-`git clone https://github.com/Neiklneev/Neovim.git ~/.config/nvim` // Cloning this repo <br>
+`sudo apt install ripgrep nodejs npm neovim`<br>
+`cd ~/.config && rm -rf nvim/` <br>
+`git clone https://github.com/Neiklneev/Neovim.git ~/.config/nvim`<br>
 
 #### Now you have Neovim installed!
 
