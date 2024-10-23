@@ -4,7 +4,7 @@ return {
 
   config = function()
     require("lualine").setup({
-      options = {theme = "dracula"}
+      options = {theme = "catppuccin"}
     })
   end
 }
