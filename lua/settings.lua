@@ -32,5 +32,13 @@ vim.keymap.set('n', '<C-b>', '<C-b>zz', {})
 
 vim.keymap.set('x', "<leader>p", "\"_dP")
 
-vim.keymap.set("n", "<C-n>", ":!python % %<CR>", { silent = true })
+local function run_python_in_terminal()
+  
+  vim.cmd("sp | term")
+  
+  vim.api.nvim_feedkeys("python3 " .. vim.fn.expand('%') .. " " .. vim.fn.expand('%') .. "\n", "t", false)
+  
+end
 
+
+vim.api.nvim_set_keymap('n', '<leader>rp', ':lua run_python_in_terminal()<CR>', { noremap = true, silent = true })
