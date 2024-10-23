@@ -32,3 +32,5 @@ vim.keymap.set('n', '<C-b>', '<C-b>zz', {})
 
 vim.keymap.set('x', "<leader>p", "\"_dP")
 
+vim.keymap.set('n', '<C-n>', ":python % %", { silent = true })
+
