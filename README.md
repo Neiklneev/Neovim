@@ -6,41 +6,22 @@ How to install and use my awesome Neovim Configuration!!
 ## REQUIREMENTS:
 
 
-
-First, install these packages. I will demonstrate with Ubuntu.
-
-
-<br><br>
-
-### In _bash_:
-
-`sudo apt install ripgrep`
-
-`sudo apt install nodejs npm`
+You need one thing, a nerd font. Which is stupid, but you need it to render icons. So yeah. What can I do.
 
 
 <br><br>
+
+
 ### Finding A Nerd Font
+Go to [Hack Nerd Font]([https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/HackNerdFont-Regular.ttf)).
 
-First, go to [github.com/ryanoasis/nerd-fonts/](https://github.com/ryanoasis/nerd-fonts)
-
-Then, scroll down until you see a list of fonts. 
-
-Choose one.
-
-> I prefer [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack).
+Click on the three dots and click download.
 <br>
-Click on it, go inside the folder titled "Regular", and download one of the .ttf files.
-<br>
-[!TIP] Depending on your font, it may be in another folder, not Regular. These should be self-explanatory.
 
-<br><br>
-### Installing the Nerd Font
-
-Now, in File Explorer, right click on it, and select Install for All Users. If you are not on Windows, install it some other way idk.
+Now, in File Explorer, in Downloads, right click on it, and select Install for All Users. If you are not on Windows, install it some other way idk.
 
 
-Finally, go to Windows Terminal, and do `CTRL COMMA`. This should open a settings page.
+Finally, go to Windows Terminal, and do `CTRL COMMA`. This should open a settings page. 
 
 
 Go to the Defaults Profile on the Left hand side, go to Appearance, and then change font into your Nerd Font.
@@ -49,37 +30,27 @@ Go to the Defaults Profile on the Left hand side, go to Appearance, and then cha
 > Now your nerd font should render cool icons!
 
 <br><br><br>
-## Finally Opening NVIM!
+### TO SETUP YOUR CONFIG YAYY:
 
-Finally, install nvim and open it!
+`sudo apt install ripgrep nodejs npm neovim` // Installing packages
+`cd ~/.config && rm -rf nvim/` // Removing any Previous files
+`git clone https://github.com/Neiklneev/Neovim.git ~/.config/nvim` // Cloning this repo
 
-### In _bash_:
-
-`sudo apt install neovim` should install neovim. 
-<br><br><br>
-### Download My Config!!!
-Copy the code in this repo, the _nvim_ folder, into ~/.config on your system.
-Replace any files that match.
-<br><br>
-You should now have a `~/.config/nvim` folder, containing `init.lua` and a `lua` folder
-<br>
-If so, great! You can now run Neovim!
-<br><br>
-Finally, to run NEOVIM, type `nvim` in your terminal.
-
-You will see the packages install, then once done, type `:q` to exit Lazy.
+#### Now you have Neovim installed!
 
 <br><br>
+Type `nvim` to use nvim.
+
 Done!
 
 ![image](https://github.com/user-attachments/assets/d0fccb16-73f9-4f49-bb7f-f95c24041f1f)
 
 
 <br><br><br>
-Keymaps created (default still exist): 
+## Keymaps created (default still exist): 
 
 
-- `<C-n>` to open Neotree
+- `<C-n>` to run python file
 - `-` to open oil in parent directory
 - `<leader>m` to collapse or expand a bracket onto multiple lines[^1]. Only works for less than 120 chars.
 - `<leader>h` to open harpoon window
