@@ -13,7 +13,7 @@ You need one thing, a nerd font. Which is stupid, but you need it to render icon
 
 
 ### Finding A Nerd Font
-Go to [Hack Nerd Font]([https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/HackNerdFont-Regular.ttf)).
+Go to [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/HackNerdFont-Regular.ttf).
 
 Click on the three dots and click download.
 <br>
