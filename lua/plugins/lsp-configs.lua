@@ -13,7 +13,6 @@ return {
             "lua_ls",
             "pyright",
             "jdtls",
-            "isort",
           }
         })
       end
