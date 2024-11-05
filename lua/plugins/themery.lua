@@ -19,6 +19,10 @@ return {
         {
           name = "Tokyo Night",
           colorscheme = "tokyonight"
+        },
+        {
+          name = "s",
+          colorscheme='sdfsdf',
         }
       },
       livePreview = true,
