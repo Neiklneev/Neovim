@@ -14,7 +14,7 @@ vim.cmd("set rnu")
 vim.cmd('vnoremap <C-q> "+y')
 vim.cmd('nnoremap <C-q> "+y')
 
-vim.keymap.set('n', '<leader>tt', ':vs | term<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>tt', ':sp | term<CR>', { noremap = true, silent = true })
 
 vim.keymap.set('n', '<C-Up>', ':res +3<CR>', { noremap = true, silent = true })
 
