@@ -15,7 +15,6 @@ return {
             "jdtls",
             "isort",
             "black",
-            "stylua"
           }
         })
       end
