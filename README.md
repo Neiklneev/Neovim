@@ -54,6 +54,7 @@ Done!
 - `-` to open oil in parent directory
 - `<leader>m` to collapse or expand a bracket onto multiple lines[^1]. Only works for less than 120 chars.
 - `<leader>h` to open harpoon window
+- `<leader>fo` to format current file
 - `<leader>x` to add current buffer to harpoon
 - `<leader>th` to open Themery for color schemes
 - `<C-p>` for telescope find files.
