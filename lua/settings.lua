@@ -32,3 +32,6 @@ vim.keymap.set('n', '<C-b>', '<C-b>zz', {})
 
 vim.keymap.set('x', "<leader>p", "\"_dP")
 
+vim.keymap.set('n', '<leader>h', ':lua require("harpoon.ui").toggle_quick_menu()', {})
+
+vim.keymap.set('n', '<leader>x', ':lua require("harpoon.ui").add_file()', {})
