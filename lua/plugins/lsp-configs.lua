@@ -14,7 +14,6 @@ return {
             "pyright",
             "jdtls",
             "isort",
-            "black",
           }
         })
       end
